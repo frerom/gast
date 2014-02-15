@@ -1,0 +1,34 @@
+{
+  "name": "gast",
+  "description": "A game",
+  "version": "0.0.1",
+  "author": {
+    "name": "Fredrik Román",
+    "email": "roman.fredrik@gmail.com",
+    "url": "http://frerom.com"
+  },
+  "keywords": [
+    "entity",
+    "component",
+    "system",
+    "tool",
+    "game",
+    "development",
+    "event"
+  ],
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "main": "gast.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": ">=1.13.0",
+    "chai": ">=1.8.1",
+    "gulp": "~3.5.0",
+    "gulp-browserify": "~0.4.1",
+    "gulp-mocha": "~0.4.1"
+  }
+}
